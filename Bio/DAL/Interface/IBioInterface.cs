@@ -1,4 +1,5 @@
 ﻿using Bio.Model.Entity;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Bio.DAL.Interface
 {
