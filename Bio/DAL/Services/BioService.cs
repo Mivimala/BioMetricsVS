@@ -22,6 +22,9 @@ namespace Bio.DAL.Services
         {
             var result = _bioContext.Login.ToList();
 
+
+
+
             return result;
         }
     }
