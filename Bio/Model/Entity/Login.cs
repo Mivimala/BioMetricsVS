@@ -9,7 +9,10 @@ namespace Bio.Model.Entity
 
         public string? Role { get; set; }
 
-        public string? UserName { get; set; }
-        public string? Password { get; set; }
+        public string UserName { get; set; }
+        //hhh
+        public string Password { get; set; }
+        ///thiva
+        //arthi
     }
 }
