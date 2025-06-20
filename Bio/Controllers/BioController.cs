@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Bio.DAL.Interface;
-using Bio.Data.Contedxt;
 using Bio.Model;
-using Bio.Data.Contedxt;
+
 using Bio.Model.Entity;
+using Bio.Data;
 
 namespace Bio.Controllers
 {

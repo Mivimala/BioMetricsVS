@@ -1,16 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
 using Bio.Model.Entity;
-namespace Bio.Data.Contedxt
+namespace Bio.Data
 {
     public class BioContext : DbContext
     {
         public BioContext(DbContextOptions options) : base(options)
         {
-
         }
 
-        public DbSet<Login> Login{ get; set; }
+        public DbSet<Login>Login{ get; set; }
         
     }
 }
+
+

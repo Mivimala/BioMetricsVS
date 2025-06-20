@@ -1,8 +1,10 @@
 ﻿using Bio.DAL.Interface;
 using Bio.Model.Entity;
-using Bio.Data.Contedxt;
-using Bio.Model.Entity;
+using Bio.Controllers;
 using Bio.Model.ViewModel;
+using System.IO;
+using Microsoft.EntityFrameworkCore;
+using Bio.Data;
 
 
 namespace Bio.DAL.Services
@@ -22,10 +24,13 @@ namespace Bio.DAL.Services
         {
             var result = _bioContext.Login.ToList();
 
+            if (result.Any())
+            {
+                return result;
+            }
+            else
 
-
-
-            return result;
+                return new List<Login>();
         }
     }
 }
