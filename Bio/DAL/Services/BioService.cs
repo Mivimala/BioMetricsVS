@@ -22,7 +22,7 @@ namespace Bio.DAL.Services
         {
             var result = _bioContext.Login.ToList();
 
-//arthi123
+       
 
 
             return result;
